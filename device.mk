@@ -364,10 +364,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
-# Prebuilt Apps
-PRODUCT_PACKAGES += \
-    AndroidSystemIntelligence
-
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2 \
