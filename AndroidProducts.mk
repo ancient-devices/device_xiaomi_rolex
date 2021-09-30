@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_rolex.mk
+    $(LOCAL_DIR)/ancient_rolex.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_rolex-user \
-    nad_rolex-userdebug \
-    nad_rolex-eng
+    ancient_rolex-user \
+    ancient_rolex-userdebug \
+    ancient_rolex-eng

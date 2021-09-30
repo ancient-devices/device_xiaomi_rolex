@@ -20,12 +20,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common Nusantara stuff
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+# Inherit some common AncientOS stuff
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
-NAD_BUILD_TYPE := UNOFFICIAL
 USE_PIXEL_CHARGING := true
 TARGET_USES_BLUR := true
+
+# Ancient OS
+ANCIENT_OFFICIAL := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -34,7 +37,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4A
 PRODUCT_DEVICE := rolex
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := nad_rolex
+PRODUCT_NAME := ancient_rolex
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

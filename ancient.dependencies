@@ -1,0 +1,14 @@
+[
+ {
+  "remote": "github",
+  "repository": "ancient-devices/kernel_xiaomi_rolex",
+  "target_path": "kernel/xiaomi/msm8937",
+  "branch": "eleven"
+ },
+ {
+  "remote": "github",
+  "repository": "ancient-devices/vendor_xiaomi_rolex",
+  "target_path": "vendor/xiaomi/rolex",
+  "branch": "eleven"
+ }
+]
