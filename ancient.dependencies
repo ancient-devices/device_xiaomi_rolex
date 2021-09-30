@@ -10,5 +10,17 @@
   "repository": "ancient-devices/vendor_xiaomi_rolex",
   "target_path": "vendor/xiaomi/rolex",
   "branch": "eleven"
+ },
+ {
+  "remote": "github",
+  "repository": "mvaisakh/gcc-arm64",
+  "target_path": "prebuilts/evagcc/gcc64",
+  "branch": "gcc-master"
+ },
+ {
+  "remote": "github",
+  "repository": "mvaisakh/gcc-arm",
+  "target_path": "prebuilts/evagcc/gcc32",
+  "branch": "gcc-master"
  }
 ]
