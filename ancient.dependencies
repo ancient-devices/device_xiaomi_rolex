@@ -14,13 +14,13 @@
  {
   "remote": "github",
   "repository": "mvaisakh/gcc-arm64",
-  "target_path": "prebuilts/evagcc/gcc64",
+  "target_path": "prebuilts/gcc64",
   "branch": "gcc-master"
  },
  {
   "remote": "github",
   "repository": "mvaisakh/gcc-arm",
-  "target_path": "prebuilts/evagcc/gcc32",
+  "target_path": "prebuilts/gcc32",
   "branch": "gcc-master"
  }
 ]

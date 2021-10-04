@@ -59,8 +59,8 @@ TARGET_KERNEL_CONFIG 		:= mi8937_defconfig
 TARGET_KERNEL_SOURCE 		:= kernel/xiaomi/msm8937
 TARGET_KERNEL_VERSION         := 4.9
 TARGET_KERNEL_NEW_GCC_COMPILE := true
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/evagcc/gcc64/bin/aarch64-elf-
-TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := $(PWD)/prebuilts/evagcc/gcc32/bin/arm-eabi-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(PWD)/prebuilts/gcc64/bin/aarch64-elf-
+TARGET_KERNEL_CROSS_COMPILE_PREFIX_ARM32 := $(PWD)/prebuilts/gcc32/bin/arm-eabi-
 TARGET_EXFAT_DRIVER		:= sdfat
 
 # ANT+
